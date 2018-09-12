@@ -36,6 +36,8 @@ body{
     position: fixed;
     width: 80%;
     top:0;
+    opacity: 1.0;
+    z-index: 10;
 }
 
 .nav-item {
