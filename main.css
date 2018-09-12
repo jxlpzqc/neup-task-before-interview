@@ -1,0 +1,126 @@
+@font-face{
+    font-family:'divfont';
+    src:url(font.ttf);
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    flex-flow: row;
+    background: red;
+    position: relative;
+    top: 250px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.nav-item {
+    flex:auto;
+    text-align: center;
+}
+
+.nav-item:hover{
+    background-color: green;
+}
+
+.rows {
+    display: flex;
+    width: 100%;
+}
+
+.rows-1{
+    height: 500px;
+    
+}
+
+.rows-2{
+    height: 600px;
+    
+}
+
+.row-side {
+    width: 160px;
+    background: grey;
+}
+
+.row-center {
+    flex:auto;
+    background: url(main.jpg);
+    text-align: center;
+}
+
+.row-left {
+    flex:auto;
+    background-color: aquamarine;
+}
+
+.row-right {
+    width: 0;
+    background-color: #d2ea51;
+}
+
+.row-left p{
+    font-family:divfont;
+    text-align: right;
+    font-size: 5em;
+    padding: 50px;
+}
+
+
+.blue{
+    background: blue;
+}
+
+.red{
+    background: red;
+}
+
+.black{
+    background: black;
+}
+
+.orange{
+    background: orange;
+}
+
+.purple{
+    background: purple;
+}
+
+.grey{
+    background: grey;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    background: black;
+}
+
+.btn{
+    width: 10em;
+    position:relative;
+    top: 300px;
+    height: 3em;
+    font-size: 2em;
+    background: #b7bc34aa;
+    border-radius: 1.5em;
+    border:none;
+}
