@@ -138,4 +138,12 @@ body{
     body{
         margin: 0;
     }
+    
+    .navbar-fixed{
+        width: 100%;
+    }
+    
+    .row-left p{
+        font-size: 1.5em;
+    }
 }
